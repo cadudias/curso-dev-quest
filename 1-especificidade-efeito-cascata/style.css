@@ -1,0 +1,17 @@
+/* ------- Efeito cascata --------- */
+/* De acordo com o efeito cascata a última regra escrita para um 
+elemento é a que prevalece */
+/* -------------------------------- */
+.container {
+  background-color: aqua;
+}
+
+.container {
+  background-color: orange;
+}
+
+/* ------- Especificidade --------- */
+  
+/* .container p {
+  background-color: chartreuse;
+} */
