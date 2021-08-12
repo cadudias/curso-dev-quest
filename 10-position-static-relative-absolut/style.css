@@ -1,0 +1,27 @@
+.elemento {
+  color: #fff;
+  font-size: 24px;
+  width: 25%;
+}
+
+.elemento-um {
+  position: static;
+  background-color: darkolivegreen;
+}
+
+.elemento-dois {
+  position: relative;
+  left: 25%;
+  background-color: darkslateblue;
+}
+
+.elemento-tres {
+  position: relative;
+  background-color: coral;
+}
+
+.elemento-quatro {
+  position: absolute;
+  right: 0;
+  background-color: darkcyan;
+}
