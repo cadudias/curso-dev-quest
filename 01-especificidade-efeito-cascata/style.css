@@ -1,32 +1,49 @@
 /* ------- Efeito cascata --------- */
-/* 
-  De acordo com o efeito cascata, a última regra escrita 
-  para um elemento é a que prevalece 
-*/
-
-.container {
+.container-cascata {
   background-color: aqua;
 }
 
-/* .container {
+/*
+.container-cascata {
   background-color: orange;
 } */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------- Especificidade --------- */
-/*
-  O seletor com a regra mais específica é o que vai ser aplicado, 
-  independente do efeito cascata
-*/
 
 p {
   background-color: lightskyblue;
 }
 
+/* .container-especificidade p {
+  background-color: chartreuse;
+} */
+
 /* #meu-paragrafo {
   background-color: violet;
-}
-
-.container p {
-  background-color: chartreuse;
 } */
 
