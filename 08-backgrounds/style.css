@@ -1,0 +1,34 @@
+p {
+  color: coral;
+  font-size: 24px;
+}
+
+.bg {
+  background-color: lightgreen;
+}
+
+/* 
+.bg-image {
+  width: 513px;
+  height: 340px;
+}
+
+.bg-repeat {
+  background-repeat: no-repeat;
+  height: 540px;
+}
+
+.bg-size-cover {
+  background-size: cover;
+  height: 540px;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+  height: 540px;
+}
+
+.bg-position {
+  background-position: left;
+  height: 540px;
+} */
