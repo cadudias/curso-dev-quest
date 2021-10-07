@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulando atributos e estilos DOM</title>
+  </head>
+
+  <style>
+    .fonte-grande {
+      font-size: 30px;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <h1>Manipulando estilos</h1>
+
+    <button onclick="alterarCorDeFundoPrimeiroPost()">Alterar Cor De Fundo do Primeiro Post</button>
+    <br>
+    <button onclick="alterarCorDeFundoTodosPosts()">Alterar Cor De Fundo de Todos os Posts</button>
+    <br>
+    <button onclick="aumentarFonte()">Adicionar classe de tamanho de fonte</button>
+   
+    <article class="post">
+      <p><strong>Ricardo Dias</strong> <span>@caduHD - 10 min</span></p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        labore, atque odit saepe voluptate, earum ut laboriosam ipsa suscipit
+        ipsum velit quaerat corporis quod. Eaque omnis deleniti exercitationem
+        autem consectetur?
+      </p>
+      <br>
+    </article>
+
+    <article class="post">
+      <p><strong>Ricardo Dias</strong> <span>@caduHD - 10 min</span></p>
+      <p class="texto-post">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        labore, atque odit saepe voluptate, earum ut laboriosam ipsa suscipit
+        ipsum velit quaerat corporis quod. Eaque omnis deleniti exercitationem
+        autem consectetur?
+      </p>
+      <br>
+    </article>
+
+    <h2>Manipulando atributos</h2>
+
+    <br>
+    <button onclick="marcarCheckbox('F')">Marcar checkbox feminino</button>
+    <button onclick="marcarCheckbox('M')">Marcar checkbox masculino</button>
+
+    <div class="radios">
+      M <input type="radio" name="genero" id="genero-masculino">
+      F <input type="radio" name="genero" id="genero-feminino">
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
