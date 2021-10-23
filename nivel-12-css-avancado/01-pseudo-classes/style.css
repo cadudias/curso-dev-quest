@@ -2,26 +2,26 @@
     propriedade: valor;
 } */
 
-p:first-child{
+.first-child p:first-child{
     color: aquamarine;
 }
 
-p:last-child{
+.last-child p:last-child{
     color: blueviolet;
 }
 
-p:not(.padrao){
+.not p:not(.padrao){
     color: yellow;
 }
 
- li:nth-child(n+1):nth-child(-n+3) {
+ .nth-child li:nth-child(n+1):nth-child(-n+3) {
     color: red;
 }
 
-li:nth-last-child(1){
+.nth-last-child li:nth-last-child(1){
     color: red;
 }
 
-p:only-child{
+.only-child p:only-child{
     color:red
 }
