@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+p {
+    font-size: 24px;
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+}
