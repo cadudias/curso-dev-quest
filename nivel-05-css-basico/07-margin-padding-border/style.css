@@ -1,0 +1,38 @@
+p {
+    margin: 30px 15px;
+    padding: 20px;
+    background-color: aquamarine;
+
+    border: 20px solid red;
+}
+
+h1 {
+    border-style: solid;
+    border-width: 20px;
+
+    border-color: green cyan orange blueviolet;
+}
+
+adicionando margem em todos os lados separadamente
+(seguindo o sentido horário)
+
+margin: 30px 10px 5px 2px;
+
+estrutura: topo direita baixo esquerda
+---------------------------
+adicionando margem em todos os lados ao mesmo tempo
+
+margin: 30px; 
+
+adicionado a mesma margem em cima e embaixo, e nas laterias 
+
+margin: 30px 15px;
+
+estrutura: topo/baixo direita/esquerda
+
+adicionando margem em cima, nas duas laterais (ao mesmo tempo) e embaixo
+
+margin: 30px 15px 10px;
+
+estrutura: topo direita/esquerda baixo
+
