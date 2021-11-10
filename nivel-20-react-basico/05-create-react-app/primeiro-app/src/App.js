@@ -1,14 +1,11 @@
-import Botao from './components/button/button'
+import Card from './components/card/card'
 
 function App() {
   return (
     <>
-      <Botao text='Ac'/>
-      <Botao />
-      <Botao />
-      <Botao />
-      <Botao />
-      <Botao />
+      <Card title='Card 1'/>
+      <Card title='Card 2'/>
+      <Card title='Card 3'/>
     </>
   );
 }
