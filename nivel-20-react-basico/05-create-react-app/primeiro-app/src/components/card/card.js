@@ -1,13 +1,14 @@
-import React from 'react'
-import './card.css'
+import React from "react";
+import "./card.css";
 
-const Card = ({children}) => {
-    return (
-        <div className='card'>
-            {children}
-        </div>
-    )
-}
+const Card = ({ title, mostrarTituloCartao }) => {
+  return (
+    <div className="card" onClick={() => mostrarTituloCartao(title)}>
+      <h3>{title}</h3>
+      <p>Texto card</p>
+    </div>
+  );
+};
 
 // class Card extends React.Component {
 //     render() {
@@ -21,4 +22,4 @@ const Card = ({children}) => {
 //     }
 // }
 
-export default Card
+export default Card;

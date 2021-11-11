@@ -1,7 +1,25 @@
-import './botao.css'
+import "./botao.css";
 
-const Button = () => {
-    return <button className='btn'>Clique aqui</button>
-}
+const sayHello = () => alert("olá");
 
-export default Button
+const Button = (props) => (
+  <button className="btn" onClick={sayHello}>
+    {props.label}
+  </button>
+);
+
+Button.defaultProps = {
+  label: "Clique aqui",
+};
+
+// class Button extends React.Component {
+//     render() {
+//         return <button className='btn'>{this.props.label}</button>
+//     }
+// }
+
+// Button.defaultProps = {
+//     label: 'CLique aqui com classe'
+// };
+
+export default Button;
