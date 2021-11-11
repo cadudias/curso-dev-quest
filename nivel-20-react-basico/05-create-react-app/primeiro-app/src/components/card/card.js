@@ -1,14 +1,14 @@
-import React from 'react'
-import './card.css'
+import React from "react";
+import "./card.css";
 
-const Card = ({title}) => {
-    return (
-        <div className='card'>
-            <h3>{ title }</h3>
-            <p>Texto card</p>
-        </div>
-    )
-}
+const Card = ({ title, mostrarTituloCartao }) => {
+  return (
+    <div className="card" onClick={() => mostrarTituloCartao(title)}>
+      <h3>{title}</h3>
+      <p>Texto card</p>
+    </div>
+  );
+};
 
 // class Card extends React.Component {
 //     render() {
@@ -22,4 +22,4 @@ const Card = ({title}) => {
 //     }
 // }
 
-export default Card
+export default Card;

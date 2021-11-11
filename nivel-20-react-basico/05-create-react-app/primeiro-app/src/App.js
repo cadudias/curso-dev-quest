@@ -1,11 +1,13 @@
-import Card from './components/card/card'
+//import Card from './components/card/card'
+import Button from './components/button/button'
+import Cards from './components/cards/cards'
 
 function App() {
   return (
     <>
-      <Card title='Card 1'/>
-      <Card title='Card 2'/>
-      <Card title='Card 3'/>
+      <Cards />
+
+      <Button />
     </>
   );
 }
